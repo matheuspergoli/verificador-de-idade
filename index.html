@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Projeto 2 // Verificador de Idade</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">Verificador de Idade</h1>
+    </header>
+
+    <main id="content">
+        <p class="input-group">
+            <label for="ano-nascimento">Ano de nascimento:</label>
+            <input type="number" name="ano-nascimento" id="ano-nascimento">
+        </p>
+
+        <p class="input-group">
+            <input type="radio" name="sexo" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="sexo" id="feminino" value="feminino">
+            <label for="feminino">Feminino</label>
+        </p>
+
+        <input type="submit" value="Verificar" id="btn-submit">
+
+        <p id="text">Preencha os dados acima para ver o resultado!</p>
+
+        <div id="img"></div>
+    </main>
+</body>
+</html>
